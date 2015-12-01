@@ -49,7 +49,7 @@ then
 		[ "$ALLOW_SUDO" -eq 0 ] && $0 $ACTION $t
 	done
 	exit 0
-elif [ -z "$TOOL" -a "$ACTION" != "list" -a "$ACTION" != "setup" ]
+elif [ -z "$TOOL" -a "$ACTION" != "list" -a "$ACTION" != "setup" -a "$ACTION" != "docs" ]
 then
 	usage
 	exit
@@ -151,6 +151,8 @@ case $ACTION in
 			fi
 		fi
 		;;
+  docs)
+    cat doc;;
 	*)
 		echo "TOOLS | ERROR | unknown action $ACTION"
 		;;

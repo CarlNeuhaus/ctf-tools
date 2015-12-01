@@ -1,0 +1,56 @@
+Category	Tool	Description
+binary	afl	State-of-the-art fuzzer.
+binary	angr	Next-generation binary analysis engine from Shellphish.
+binary	barf	Binary Analysis and Reverse-engineering Framework.
+binary	bindead	A static analysis tool for binaries.
+binary	checksec	Check binary hardening settings.
+binary	codereason	Semantic Binary Code Analysis Framework.
+binary	crosstool-ng	Cross-compilers and cross-architecture tools.
+binary	elfkickers	A set of utilities for working with ELF files.
+binary	evilize	Tool to create MD5 colliding binaries
+binary	gdb	Up-to-date gdb with python2 bindings.
+binary	peda	Enhanced environment for gdb.
+binary	preeny	A collection of helpful preloads (compiled for many architectures!).
+binary	villoc	Visualization of heap operations.
+binary	qemu	Latest version of qemu!
+binary	pathgrind	Path-based, symbolically-assisted fuzzer.
+binary	virtualsocket	A nice library to interact with binaries.
+binary	pwntools	Useful CTF utilities.
+binary	python-pin	Python bindings for pin.
+binary	radare2	Some crazy thing crowell likes.
+binary	shellnoob	Shellcode writing helper.
+binary	taintgrind	A valgrind taint analysis tool.
+binary	qira	Parallel, timeless debugger.
+binary	xrop	Gadget finder.
+binary	rp++	Another gadget finder.
+forensics	binwalk	Firmware (and arbitrary file) analysis tool.
+forensics	dislocker	Tool for reading Bitlocker encrypted partitions.
+forensics	exetractor	Unpacker for packed Python executables. Supports PyInstaller and py2exe.
+forensics	firmware-mod-kit	Tools for firmware packing/unpacking.
+forensics	testdisk	Testdisk and photorec for file recovery.
+forensics	pdf-parser	Tool for digging in PDF files
+forensics	scrdec	A decoder for encoded Windows Scripts.
+crypto	cribdrag	Interactive crib dragging tool (for crypto).
+crypto	foresight	A tool for predicting the output of random number generators. To run, launch "foresee".
+crypto	hashpump	A tool for performing hash length extension attaacks.
+crypto	hashpump-partialhash	Hashpump, supporting partially-unknown hashes.
+crypto	hash-identifier	Simple hash algorithm identifier.
+crypto	littleblackbox	Database of private SSL/SSH keys for embedded devices.
+crypto	msieve	Msieve is a C library implementing a suite of algorithms to factor large integers.
+crypto	pemcrack	SSL PEM file cracker.
+crypto	reveng	CRC finder.
+crypto	ssh_decoder	A tool for decoding ssh traffic. You will need ruby1.8 from https://launchpad.net/~brightbox/+archive/ubuntu/ruby-ng to run this. Run with ssh_decoder --help for help, as running it with no arguments causes it to crash.
+crypto	sslsplit	SSL/TLS MITM.
+crypto	python-paddingoracle	Padding oracle attack automation.
+crypto	xortool	XOR analysis tool.
+crypto	yafu	Automated integer factorization.
+web	burpsuite	Web proxy to do naughty web stuff.
+web	commix	Command injection and exploitation tool.
+web	dirs3arch	Web path scanner.
+web	sqlmap	SQL injection automation engine.
+web	subbrute	A DNS meta-query spider that enumerates DNS records, and subdomains.
+stego	sound-visualizer	Audio file visualization.
+stego	stegdetect	Steganography detection/breaking tool.
+stego	steganabara	Antoher image steganography solver.
+stego	stegsolve	Image steganography solver.
+android	apktool	Dissect, dis-assemble, and re-pack Android APKs
